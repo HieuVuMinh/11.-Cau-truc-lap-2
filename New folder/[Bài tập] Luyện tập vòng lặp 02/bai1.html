@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a  = prompt("Nhap so")
+    let h = 1;
+    let j = 1;
+    let k;
+    if (a < 1){
+        document.write("Khong ton tai day so")
+    } else if (a == 1){
+        document.write("Day so bang" + " " + a)
+    } else {
+        document.write(h + " ");
+        document.write(h + " ");
+        for (var i = 2; i < a; i++){
+            k = h + j;
+            document.write(k + " ");
+            h = j;
+            j = k;
+        }
+    }
+</script>
+</body>
+</html>

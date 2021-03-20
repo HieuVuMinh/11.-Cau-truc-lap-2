@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt("nhap so")
+    let term = 1;
+    if (a < 1){
+        document.write("khong ton tai giai thua")
+    } else if (a == 1){
+        document.write(a)
+    } else {
+        for (var i = 1; i <= a; i++){
+            term = term * i;
+        } document.write("Giai thua cua" + " " + a + " " + "=" + " " + term);
+    }
+</script>
+</body>
+</html>
